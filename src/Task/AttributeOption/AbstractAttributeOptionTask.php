@@ -12,7 +12,7 @@ use Synolia\SyliusAkeneoPlugin\Service\SyliusAkeneoLocaleCodeProvider;
 
 abstract class AbstractAttributeOptionTask
 {
-    public const AKENEO_PREFIX = 'akeneo-';
+    public const AKENEO_PREFIX = '';
 
     /** @var int */
     protected $updateCount = 0;
